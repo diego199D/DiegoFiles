@@ -1,0 +1,76 @@
+.titulado-materias{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: yellow;
+    background-color:rgb(30, 30, 30) ;
+}
+.titulado-materias img{
+    width: 70px;
+}
+
+/* targetas */
+.targetas-content{
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(30, 30, 30) ;
+}
+.targetas-content img{
+    width: 60px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.caja-texto{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 10px;
+    padding-top:40px;
+    border: 1px solid yellow;
+    border-radius:25px;
+    box-shadow: 0 3px 10px rgba(255, 255, 0, 0.5);
+    width: 190px;
+    margin: 50px 30px;
+}
+.caja-texto h3{
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#subtitulo{
+    color: red;
+}
+.caja-texto a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.caja-texto a:hover{
+    background-color: white;
+    border-color: black;
+}
+
+/* NOVEDADES----------------------- */
+.novedad{
+    background-image: url(imagenes/navidad.png);
+    background-size: cover;
+    font-size: 40px;
+    padding: 40vh 50px;
+    display: flex;
+    color: white;
+    font-family: 'titulos';
+    justify-content: center;
+    text-align: center;
+}

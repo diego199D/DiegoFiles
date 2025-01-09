@@ -1,2 +1,2 @@
-# DiegoFiles
-Pagina donde estan mis apuntes personales de la universidad
+# DiegoFile
+pagina web para mis apuntes
