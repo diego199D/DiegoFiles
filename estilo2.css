@@ -30,7 +30,6 @@
     background-color: rgb(60, 60, 60);
     color: white;
     display: flex;
-    align-items: center;
     flex-direction: column;
     padding: 30px 10px;
     padding-top:40px;
@@ -38,7 +37,10 @@
     border-radius:25px;
     box-shadow: 0 3px 10px rgba(133, 133, 133, 0.3);
     width: 190px;
-    margin: 50px 30px;
+    height: 140px;
+    margin: 50px 30px; 
+    align-items: center;
+    align-content: flex-end;
 }
 .caja-texto h3{
     border-bottom: 2px solid white;
@@ -56,12 +58,23 @@
     background-color: yellow;
     border-radius: 10px;
     padding: 0px 20px;
+    position: absolute;
+    margin-top: 130px;
 }
 .caja-texto a:hover{
     background-color: white;
     border-color: black;
 }
 
+.caja-texto:hover{
+    box-shadow: 0 3px 10px rgb(255, 255, 255, 0.9);
+}
+.targeta-completa:hover{
+    transform: translateY(-7px);
+}
+.targeta-completa{
+    transition: 0.2s;
+}
 /* NOVEDADES----------------------- */
 .novedad{
     background-image: url(imagenes/navidad.png);
@@ -73,4 +86,10 @@
     font-family: 'titulos';
     justify-content: center;
     text-align: center;
+}
+
+@media(max-width:800px){
+    .titulado-materias{
+        justify-content: center;
+    }
 }
