@@ -60,12 +60,16 @@
     padding: 0px 20px;
     position: absolute;
     margin-top: 130px;
+    visibility: hidden;
+    transition: 0.1s;
 }
 .caja-texto a:hover{
     background-color: white;
     border-color: black;
 }
-
+.caja-texto:hover a{
+    visibility: visible;
+}
 .caja-texto:hover{
     box-shadow: 0 3px 10px rgb(255, 255, 255, 0.9);
 }
@@ -91,5 +95,8 @@
 @media(max-width:800px){
     .titulado-materias{
         justify-content: center;
+    }
+    .caja-texto a{
+        visibility: visible;
     }
 }

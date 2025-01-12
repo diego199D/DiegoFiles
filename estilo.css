@@ -94,10 +94,13 @@ header img{
     background-color: yellow;
     border-color:black;
     font-size: 17px;
+    transition: ease-in-out 0.6s;
 }
 .boton:hover {
     background-color:white;
+    transform: translateY(3px);
 }
+
 #imagen-principal{
     transition: 0.9s ease;
     animation: flotar  3s ease-in-out infinite; /*3s es cuanto tiempo tarda en completarse un ciclo del keyframe*/
