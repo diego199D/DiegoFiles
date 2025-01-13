@@ -64,7 +64,7 @@ header img{
 .principal{
     display: flex;
     padding: 40px 20px;
-    height: 82vh;
+    min-height: 82vh;
     background-color: rgb(30, 30, 30);
     color: white;
     justify-content:space-around;
